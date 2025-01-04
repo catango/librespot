@@ -22,6 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [connect] Add command line parameter for setting volume steps.
 - [connect] Add support for `seek_to`, `repeat_track` and `autoplay` for `Spirc` loading
+- [build] Add Github workflow to build multiarch debian package
+- [connect] Add `seek_to` field to `SpircLoadCommand` (breaking)
+- [connect] Add `repeat_track` field to `SpircLoadCommand` (breaking)
 - [connect] Add `pause` parameter to `Spirc::disconnect` method (breaking)
 - [connect] Add `volume_steps` to `ConnectConfig` (breaking)
 - [connect] Add and enforce rustdoc
