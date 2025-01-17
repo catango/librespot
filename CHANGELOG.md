@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- [test] Bindgen 0.71 breaks test cases when crosscompiling. Using bindgen 0.70.1 still works.
+- [test] Missing bindgen breaks crossbuild on recent runners. Now installing latest bindgen in addition.
 - [core] Fix "no native root CA certificates found" on platforms unsupported
   by `rustls-native-certs`.
 - [core] Fix all APs rejecting with "TryAnotherAP" when connecting session
