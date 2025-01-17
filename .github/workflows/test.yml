@@ -3,7 +3,7 @@ name: test
 
 on:
   push:
-    branches: [dev, master]
+    branches: [dev, master, fix-testcases-fix]
     paths:
       [
         "**.rs",
